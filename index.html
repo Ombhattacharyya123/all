@@ -1,106 +1,151 @@
-<html>
+<html><head>
+	<title>Photo Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <title> project my favourite 1</title>
-    <link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
-    <ul class="menu">
-        <li class="link1"><a href="#welcome">ABOUT</a></li>
-        <li class="link1"><a href="#bio">MY FAVOURITE HOBBI/CARECTERS REVEWS</a></li>
-        <li class="link1"><a href="#my_work">MY WORKS</a></li>
-        <li class="link1"><a href="#my_inspiration">MY INSPIRATION</a></li>
-        <li class="link1"> Contacts</li>
+	<body><h3>
+
+
+    <center>   
+    <ul class="menu1">
+      <li class="links"><a href="#home">Home</a></li>
+        <li class="links"><a href="#Grids">Grid view</a></li>
+        <!--add Grids in href as href="#Grids"-->
+        <li class="links"><a href="#Slides">Slide view</a></li>
+        <!--add Slides in href as href="#Slides"-->
+		    
     </ul>
-    <section id="welcome" class="sec1">
-        <br><br>
-        <img id="img1" class="img" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNTEyMDQ4NA&ixlib=rb-1.2.1&q=85">
-        <div>
-            <h1> My Favourite Hobbi</h1><br>
-            <h2> Do Codding</h2>
-            <br><br>
-        </div>
-    </section>
+</center>
+</h3>
+
+
+<div class="container">
+    <section id="home">
+    <div class="page-header">
+  		<h2 class="text-capitalize"></h2>
+        <img id="img1" src="flowers.gif" class="img-responsive">
+    </div>
+          </section>
+       <!---->
+   <hr style="width: 100%;">
+     <section id="Grids">
+        <h2> Grid gallery</h2>   
+          <br>
+         <script src=""></script>
+          <div class="row">
+              <img class="img2" src="blue.jpg">
+              <img class="img2" src="Orange.png">
+              <img class="img2" src="Pink tulip.jpg">
+              <img class="img2" src="purple.jpg">
+              <br><br>	
+            </div>
+          <div class="row">
+            <img class="img2" src="Red rose.jpg">
+            <img class="img2" src="violet.jpg">
+            <img class="img2" src="White.jpg">
+            <img class="img2" src="yellow.jpg">
+             </div>
+             
+ </section>
+   
     <br>
-    <section id="bio" class="sec2">
-        <h1> Codding</h1>
-        <div id="line"></div>
-        <p> I like to do codding it is my favourite hobbi. I like to make apps ,games ,webpages. It Makes me feel happy. My teacher's name is Swetha cs she teaches me codding very well, she makes me understand the code and let me do. If I stuck in some code or projects she helps me out. </p>
-        <p> These are my favourite cartoons</p>
-        <iframe width="914" height="514" src="https://www.youtube.com/embed/GtFHVL9-V5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="914" height="514" src="https://www.youtube.com/embed/MpthforAHSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="914" height="514" src="https://www.youtube.com/embed/Noc1bl2iYc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="914" height="514" src="https://www.youtube.com/embed/aVexgZFb1Xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="914" height="514" src="https://www.youtube.com/embed/Z2IpgngCuGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="914" height="514" src="https://www.youtube.com/embed/2q-erMXtapk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
+    <br>
+     <hr style="width: 100%;">
+    
+      
+       <!-- Left and right controls -->
+    <section id="Slides">
+       <h2>Sliding gallery</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item">
+        <img class="img-responsive" src="blue.jpg" alt="Blue" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Blue Flower</h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item active">
+        <img class="img-responsive" src="Orange.png" alt="Orange" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Orange Flower</h3>
+          <p></p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img class="img-responsive" src="Pink tulip.jpg" alt="Pink" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Pink Tulip</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="purple.jpg" alt="Purple" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Purple Flower</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="Red rose.jpg" alt="Red" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Red Rose</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="violet.jpg" alt="Violet" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Violet Flower</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="White.jpg" alt="White" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>White Flower</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="yellow.jpg" alt="Yellow" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Yellow Flower</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+        <!--add glyphicon glyphicon-chevron-right here-->
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
     </section>
-    <section id="my_work">
-        <h1>MY WORKS </h1>
-        <div id="line"></div>
-        <span>
-            <a href="https://studio.code.org/projects/starwars/p_a4UFVFZSH1-RgnxJDtqVXOgZNiewvAM_MkociqYIU" target="_blank"><button class="btng">STAR WARS</button></a>
-        </span>
-        <br>
-        <br>
-        <span>
-            <a href="https://studio.code.org/projects/applab/Jtlzb4_tfJxdL0Tm7FPBmn5T6G6u-djL3iKQvocK9_Y" target="_blank"><button class="btng">VERTUAL PLANATERIUM</button></a>
-        </span>
-        <br>
-        <br>
-        <span>
-            <a href="https://studio.code.org/projects/applab/R0kqCrO9NZplW96eI28z51r5H4upKQhyLqkVnJ9Kics" target="_blank"><button class="btng">MY DRAWING APP</button></a>
-        </span>
-        <br>
-        <br>
+        </div>
 
 
-        <a href="https://studio.code.org/projects/flappy/zF2MYNJIYVvySZWdPbtBPd8gUxsoPG0U-Ym7p1DbbD0" target="_blank"><button class="btng">MY OBSTACLE GAME</button></a>
-        <br>
-        <br>
-        <a href="https://studio.code.org/projects/applab/As5yYWSBLLWXEPtwAFnqtZkELbOvvng1J4Y57ZAXDN4" target="_blank"><button class="btng">COLLECT THE APPLE GAME</button></a>
-        <span>
-            <a href="https://studio.code.org/projects/applab/IBv2nN0l8zUDnrDMr9ozRvgwW-u1MxBn9f2S-xJeqjM" target="_blank"><button class="btng">BRICK-O-METER</button></a>
-        </span>
-    </section>
-    <section id="my_inspiration">
-        <h1> MY INSPIRATION</h1>
 
-        <div id="line"></div>
-        <h1> ZAKIR HASSAN IS MY INSPIRATION.</h1>
-        <hr>
-        <hr>
-        <a href="https://en.wikipedia.org/wiki/Zakir_Hussain_(musician)#Career" target="_blank"> <img id="img_zakir_hussan" src="data:image/jpeg;base64,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">
-        </a>
-        <br>
-        <br>
-
-        <a href="http://www.zakirhussain.com/zakir/" target="_blank"> <img id="img_zakir_hussan2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJDu2lQJLFt_92c16Hl4pjUKkYd8h4oXKTSA&usqp=CAU">
-        </a>
-        <br>
-        <br>
-        <h1> HERE ARE SOME OF HIS VIDEOS</h1>
-        <iframe width="914" height="514" src="https://www.youtube.com/embed/LAwgD_YxRgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="914" height="514" src="https://www.youtube.com/embed/O2K0ptoYpuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <h1> ZAKIR HUSSAIN WIKIPEDIA</h1>
-        <a class="wikpid" href="https://en.wikipedia.org/wiki/Zakir_Hussain_(musician)#Career" target="_blank"><button>VISIT ZAKIR HUSSAN'S WIKIPIDEA</button></a>
-    </section>
-</body>
-
-</html>
+</body></html>

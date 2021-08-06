@@ -1,104 +1,75 @@
-.img {
-    height: 250px;
+.container
+{
+    text-align: center;
+}
+.menu1{
+float:left;
+list-style:none;
+color:white;
+position:fixed;
+background:black;
+width:100%;
+margin-top:0px;
+top:0px;
+z-index:10;
+}
+.links{
+display:inline;
+font-size:20px;
+padding-left:35px;
+padding-right:35px;
+}
+#img1{
+  width: 100%;
+}
+.img2{
     width: 250px;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
+    height: 200px;
+}
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.modal-content
+{
+  margin-top: 100px;
 }
 
-body {
-    text-align: center;
+.img_modal
+  {
+    display: inline-block;
+  }
 
+.modal-body
+{
+    text-align: center
+}
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+#myCarousel
+{
+    background-color: red;
 }
 
-.sec1 {
-    background: linear-gradient(#E040FB 5%, #2962FF 100%)
-}
+#myCarousel img
+{
+    height: 350px;
+       }
 
-h1 {
-    text-shadow: 2px 2px #00C853;
-}
-
-#line {
-    height: 6px;
-    width: 110px;
-    background-color: black;
-    margin: 8px auto;
-}
-
-#bio {
-    text-align: center;
-    font: 50px;
-    padding: 50px;
-    background: linear-gradient(#76FF03 5%, #00B0FF 100%)
-}
-
-.menu {
-    position: absolute;
-    float: left;
-    color: white;
-    margin: 5px;
-    list-style: none;
-    z-index: 100;
-    top: 5px;
-    left: 5px;
-    right: 10px;
-    cursor: pointer;
-
-}
-
-.link1 {
-    float: left;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    font-family: fantasy bold;
+.carousel-inner p
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color : white;
     font-size: 20px;
-}
-
-.link1:hover {
-    background-color: #EA80FC;
-}
-
-h1:hover {
-    background-color: #00B0FF;
-}
-
-.btng {
-    width: 200px;
-    height: 30px;
-    border-radius: 100px;
-}
-
-#my_work {
-    background-image: https: //png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg;
-}
-
-#my_work button:hover {
-    transform: scale(1.1)
-}
-
-#my_inspiration img:hover {
-    transform: scale(1.1);
-    border-width: 5px;
-    border-color: rosybrown;
-}
-
-#img_zakir_hussan {
-    border-width: medium;
-    border-color: sandybrown;
-    border-style: solid;
-}
-
-#img_zakir_hussan2 {
-    border-width: medium;
-    border-color: sandybrown;
-    border-style: solid;
-}
-#my_inspiration img{
-    height: 500px;
-    width: 500px;
 }
